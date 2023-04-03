@@ -121,6 +121,8 @@ kube-system     kube-scheduler-minikube                     1/1     Running     
 kube-system     storage-provisioner                         1/1     Running     0          2m11s
 ```
 
+![](https://user-images.githubusercontent.com/9384127/229639830-0a60acb3-afef-461d-81e7-ce6e1ad287ad.png)
+
 It is not required for `kubectl` to be separately installed since it comes already wrapped inside minikube. As demonstrated above, simply prefix `minikube kubectl --` before kubectl command, i.e. `kubectl get nodes` would become `minikube kubectl -- get nodes`
 
 Let's create an alias for easier usage:
