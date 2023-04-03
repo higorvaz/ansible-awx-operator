@@ -2,23 +2,11 @@
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
-  
- 
-
 ![Build Status](https://github.com/ansible/awx-operator/workflows/CI/badge.svg?event=push)
-
-  
- 
 
 ![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-Ansible-yellow.svg)
 
-  
- 
-
 ![AWX Mailing List](https://img.shields.io/badge/mailing%20list-AWX-orange.svg)
-
-  
- 
 
 ![IRC Chat - #ansible-awx](https://img.shields.io/badge/IRC-%23ansible--awx-blueviolet.svg)
 
@@ -109,6 +97,8 @@ $ minikube start --cpus=4 --memory=6g --addons=ingress --force
 🌟  Enabled addons: storage-provisioner, default-storageclass, ingress
 🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
 ```
+
+![](https://user-images.githubusercontent.com/9384127/229638413-66097269-0f17-48dd-b87b-0044b7362b2e.png)
 
 Once Minikube is deployed, check if the node(s) and `kube-apiserver` communication is working as expected.
 
